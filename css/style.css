@@ -22,6 +22,7 @@ legend {
 	
 p {
 	font-size: 25px;
+	color: #FFF8DC;
 	}
 	
 label {
@@ -29,6 +30,7 @@ label {
 	text-align: center;
 	margin: 10px auto;
 	font-size: 1.3em;
+	color: #F0E68C;
 }
 
 input { 
@@ -44,7 +46,7 @@ input {
 #button {
     width: 100%;
 	padding: 12px 20px;
-    margin: 10px auto;
+    margin: auto;
 	border-radius: 6px;
 	box-sizing: border-box;
 }
