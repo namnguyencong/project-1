@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-color: #7FFFD4;
+	background-color: #2F4F4F;
 }
 
 #container {
@@ -14,6 +14,8 @@ body {
 }
 
 legend {
+	font-family: "Times New Roman", Times, serif;
+	color: #D2691E;
 	font-size: 50px;
 	margin: 10px auto;
 	}
