@@ -11,3 +11,54 @@ function init() {
 		var password = document.forms["myForm"]["password_field"].value;
 		var repassword = document.forms["myForm"]["rpassword_field"].value;
 		
+        if (fname == "")
+        {
+            alert("Please Enter Your First Name");
+            return false;
+        }
+		
+		if (lname == "")
+        {
+            alert("Please Enter Your Last Name");
+            return false;
+        }
+		
+		if (email == "")
+        {
+            alert("Please Enter Your Email");
+            return false;
+        }
+		
+		if (phone == "")
+        {
+            alert("Please Enter Your Phoen Number");
+            return false;
+        }
+		
+		if (dob == "")
+        {
+            alert("Please Enter Your Date Of Birth");
+            return false;
+        }
+		
+		if (uname == "")
+        {
+            alert("Please Enter Your Username");
+            return false;
+        }
+		
+		if (password == "")
+        {
+            alert("Please Enter Your Password");
+            return false;
+        }
+		
+		if (repassword == "")
+        {
+            alert("Please Enter Your Password");
+            return false;
+        }
+    }
+    button.addEventListener('click', Alert);
+}
+window.addEventListener('load', init);
