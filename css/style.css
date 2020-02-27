@@ -1,1 +1,59 @@
-#css
+html {
+   line-height: 1.3em;
+   font-family: tahoma;
+   font-size: 15px;
+}
+
+body {
+	background-color: #7FFFD4;
+}
+
+#container {
+	text-align: center;
+	margin: auto;
+}
+
+legend {
+	font-size: 40px;
+	margin: 10px auto;
+	}
+	
+p {
+	font-size: 20px;
+	}
+	
+label {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 1.3em;
+}
+
+input { 
+    display: block;
+	width: 100%;
+	padding: 12px 20px;
+    margin: 10px auto;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+#button {
+    width: 100%;
+	padding: 12px 20px;
+    margin: 10px auto;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {			
+	input {
+		width: 20%
+	}
+	
+	#button {
+		width: 80%;
+	}
+}
+		
